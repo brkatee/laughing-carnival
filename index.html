@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brînzî Cătălina | Portfolio</title>
+    <style>
+        :root {
+            --primary: #667761;
+            --secondary: #545e56;
+            --accent-dark: #917c78;
+            --accent-light: #B79492;
+            --background: #EAE1DF;
+            --text-dark: #2f3531;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--secondary);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        h1, h2, h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            font-style: italic;
+            color: var(--accent-dark);
+            margin-bottom: 20px;
+        }
+
+        .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .badge {
+            background-color: var(--accent-light);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .experience-item {
+            border-left: 4px solid var(--primary);
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.9rem;
+            color: var(--secondary);
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Brînzî Cătălina</h1>
+    <p>Business Administration | PR Specialist | Digital Strategist</p>
+</header>
+
+<div class="container">
+    
+    <section class="hero">
+        <h2>Professional Summary</h2>
+        <p class="contact-info">Cahul, Moldova | +373 797 962 70 | brkateee@gmail.com</p>
+        <p>Results-driven professional with a background in Public Relations and Graduate Relations. Adept at strategic communication, digital content creation, and media management. Bilingual with B2 English proficiency, combining a growth-oriented mindset with technical command of modern marketing tools.</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="experience-item">
+            <h3>Bachelor in Business and Administration</h3>
+            <p><strong>State University "Bogdan Petriceicu Hasdeu"</strong> | 2023 – Present</p>
+            <span class="badge">3rd Year (Senior)</span>
+        </div>
+        <div class="experience-item">
+            <h3>Bachelor in International Business</h3>
+            <p><strong>"Lower Danube" University of Galati</strong> | 2024 – Present</p>
+            <span class="badge">Dual Enrollment</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Professional Experience</h2>
+        <div class="experience-item">
+            <h3>PR & Graduate Relations Specialist</h3>
+            <p><em>State University "Bogdan Petriceicu Hasdeu" | Mar 2024 – Jun 2024</em></p>
+            <ul>
+                <li>Developed internal/external communication plans to enhance institutional image.</li>
+                <li>Drafted press releases and managed promotional digital assets.</li>
+                <li>Fostered alumni networks and managed stakeholder engagement.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Technical & Professional Skills</h2>
+        <div class="skills-grid">
+            <div>
+                <h3>Digital & Design</h3>
+                <p>Social Media Management, Canva Branding, Media Monitoring.</p>
+            </div>
+            <div>
+                <h3>Software</h3>
+                <p>Advanced Microsoft Office Suite (Data Analysis & Documentation).</p>
+            </div>
+            <div>
+                <h3>Languages</h3>
+                <div class="badge-container">
+                    <span class="badge">Romanian (Native)</span>
+                    <span class="badge">Russian (Native)</span>
+                    <span class="badge">English (B2)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Brînzî Cătălina. Built with a passion for Digital Marketing.</p>
+</footer>
+
+</body>
+</html>
